@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title> Sviluppo di una pagina web - Blog Epicode</title>
+    <meta name="description" content="Primi passi operativi per creare un modello di pagina HTML per un post. Scopri come iniziare in modo facile.">
+    <script src="https://kit.fontawesome.com/29bf7f6586.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="HeaderFooter.css">
+    <link rel="stylesheet" href="mediaScreen.css">
+</head>
+<body>
+    <div class="frecciaUP"><img src="IMG\arrow-up-solid.svg"></div>
+    <header>
+        <div class="intestazione">
+            <img src="IMG\logo.svg"> <br>
+        <h1>EPICODE-IL BLOG DEI DEVELOPERS</h1>
+        </div>
+        <div class="menu">
+            <ul>
+                <li id="voce1"><a href="#">home</a></li> 
+                <li id="voce2"><a href="#">articoli</a></li>
+                <li id="voce3"><a href="#">job</a></li>
+            </ul>
+        </div>    
+    </header>
+    <main>
+        <div class="titolo">
+            <h2>Come creare un template per i post</h2>
+            <p id="#parte1"><i class="fa-solid fa-square-check"></i>Di Mario Rossi-</p> <p id="#parte2"> <i class="fa-regular fa-calendar"></i> pubblicato il 25-10-2020</p>
+        </div>
+
+        <div class="P1">
+            <p>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le <span>parti comuni</span> da applicare a tutte le pagine</p>
+        </div>
+
+        <div class="elenco">
+            <p>Le varie aree saranno quindi suddivise in:</p>
+
+            <ul>
+                <li>Contenuti di intestazione del tag <span> &lt; header&gt</span></li>
+                <li>Contenuti centrali variabili del tag <span> &lt; main&gt</span></li>
+                <li>Contenuti di fine pagina comuni da inserire nel tag <span> &lt; footer&gt</span></li>
+            </ul>
+        </div>
+
+        <div class="P2">
+            <p>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da <span> selezionare con i CSS.</span> Perciò i passi saranno:</p>
+
+            <ol>
+                <li>Progettare su carta il markup finale, assegnando ad ogni specifico testo il tag appropriato</li>
+                <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
+                <li>Applicare gli stili CSS</li>
+                <li>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.</li>
+            </ol>
+        </div>
+
+        <div class="P3">
+            <p>L'appilicazione di stili CSS è cresciuta negli anni fino a raggiungerela diffusione pressoché totale</p>
+        </div>
+
+        <div class="tabella">
+            <table>
+                <caption><h2>Diffusione dei CSS</h2></caption>
+                <thead>
+                    <tr>
+                        <th>Anno</th>
+                        <th>% di utilizzo</th>
+                        <th>Supporto browsers</th>
+                    </tr>
+                </thead>
+                <tr> 
+                    <td>2000</td>
+                    <td>20%</td>
+                    <td>17%</td>
+                </tr>
+                <tr>
+                    <td>2002</td>
+                    <td>35%</td>
+                    <td>22%</td>
+                </tr>
+                <tr>
+                    <td>2004</td>
+                    <td>45%</td>
+                    <td>42%</td>
+                </tr>
+                <tr>
+                    <td>2008</td>
+                    <td>80%</td>
+                    <td>51%</td>
+                </tr>
+                <tr>
+                    <td>2012</td>
+                    <td>100%</td>
+                    <td>76%</td>
+                </tr>  
+            </table>
+        </div>
+
+        <div class="P4">
+            <p>Un test di validazione potrà essere fatto tramite <a href="https://code.org/"> il tool online di verifica</a> dedicato allo scopo.Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:</p>
+        </div>    
+        
+        <div class="YT">
+            <iframe src="https://www.youtube.com/embed/aBSZVeBRvDY?si=nkngm0dbtvbF70IR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <div class="newsletter">
+            <div id="cont1">novità</div>
+            <p>Vuoi rimanere aggiornato su altre novità del blog?  Iscriviti alla nostra newsletter:</p>
+        
+                <form method="get" action="get.php" autocomplete="off">
+                        <input type="text" id="name" placeholder="Inserisci e-mail">
+                        <button type="submit">Iscriviti!</button>
+                </form>
+        </div>
+        <div class="correlati">
+            <h2>Articoli correlati</h2>
+            
+            <div id="art1">
+                <a href="#">VALIDARE IL CODICE HTML</a>
+                <p><i class="fa-solid fa-tag">Categoria: DEVELOP</i></p>
+                <p id="uno"><i class="fa-regular fa-calendar"></i>Data:18-09-2020</p>
+            </div>
+
+            <div id="art2">
+                <a href="#">Correggere la sintassi</a>
+                <p><i class="fa-solid fa-tag">Categoria: DEVELOP</i></p>
+                <p id="uno"><i class="fa-regular fa-calendar"></i>Data:16-09-2020</p>
+            </div>
+                            
+            <div id="art3">
+                <a href="#">Meno KB nella pagina</a>
+                <p><i class="fa-solid fa-tag">Categoria: OTTIMIZZAZIONE</i></p>
+                <p id="uno"><i class="fa-regular fa-calendar"></i>Data:30-09-2020</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+                <p>Blog Epicode &copy;2021</p>
+                <p>Testata online di Mario Rossi, registrata con prot. n213/2018-via Luigi Einaudi 2-Milano. P.IVA 00112233. <a href="info@epicode.school"> info@epicode.school.com</p>
+        </div>  
+    </footer>
+</body>
+</html>

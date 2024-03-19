@@ -1,0 +1,54 @@
+@media screen and (min-width: 1000px) {
+    
+    .frecciaUP{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 60px;
+        height: 60p;
+        background-color: white;
+        border: 8px solid blueviolet;
+    }
+    .frecciaUP>img{
+        padding: 8px;
+    }
+ 
+    p{
+        font-family:"Poppins"; 
+        color: black;
+        font-size: 40px;
+        padding-top: 7%;
+    }
+
+    .elenco{
+        font-family:"Poppins"; 
+        color: black;
+        font-size: 30px;
+        margin-top: -10%;
+    }
+    .elenco>ul{
+        font-family:"Poppins"; 
+        color: black;
+        font-size: 35px;
+        padding-top: 2%;
+        padding-left: 10%;
+    }
+    .elenco>ul li{
+        line-height:200%;
+    }
+    .P2>ol{
+        font-family:"Poppins"; 
+        color: black;
+        font-size: 35px;
+        padding-top: 7%; 
+        padding-left: 10%;
+        padding-top: 2%;
+    }
+    .YT>iframe{
+        height: 150%;
+    }
+
+    .YT{
+        padding-bottom: 20%;
+    }
+}
